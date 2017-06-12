@@ -408,6 +408,12 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Charlie Fulton";
+				TargetAttributes = {
+					CB9FDC3A15E9872D00B3713E = {
+						DevelopmentTeam = Q455L4V7AE;
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = CB9FDC3515E9872D00B3713E /* Build configuration list for PBXProject "GuildBrowser" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -612,10 +618,15 @@
 		CB9FDC6F15E9872E00B3713E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = Q455L4V7AE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.GuildBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2abb4f9f-79ff-4259-bfd9-9375423c58b9";
+				PROVISIONING_PROFILE_SPECIFIER = "Distrib: Geral";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -623,10 +634,15 @@
 		CB9FDC7015E9872E00B3713E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = Q455L4V7AE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.GuildBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2abb4f9f-79ff-4259-bfd9-9375423c58b9";
+				PROVISIONING_PROFILE_SPECIFIER = "Distrib: Geral";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
