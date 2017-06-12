@@ -411,7 +411,7 @@
 				TargetAttributes = {
 					CB9FDC3A15E9872D00B3713E = {
 						DevelopmentTeam = Q455L4V7AE;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -625,8 +625,8 @@
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.GuildBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "255d0d0d-707c-4d5a-8cb0-d2b03ca17e86";
-				PROVISIONING_PROFILE_SPECIFIER = "Dev: Accenture Geral";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -641,8 +641,8 @@
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.GuildBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "255d0d0d-707c-4d5a-8cb0-d2b03ca17e86";
-				PROVISIONING_PROFILE_SPECIFIER = "Dev: Accenture Geral";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
