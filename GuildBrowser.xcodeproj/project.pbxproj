@@ -778,7 +778,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.avianca;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.aviancarec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "255d0d0d-707c-4d5a-8cb0-d2b03ca17e86";
 				PROVISIONING_PROFILE_SPECIFIER = "Dev: Accenture Geral";
@@ -795,7 +795,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.avianca;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.aviancarec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "2abb4f9f-79ff-4259-bfd9-9375423c58b9";
 				PROVISIONING_PROFILE_SPECIFIER = "Distrib: Geral";
@@ -848,6 +848,7 @@
 				942C3AC81EEF2E58003638F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB9FDC3515E9872D00B3713E /* Build configuration list for PBXProject "GuildBrowser" */ = {
 			isa = XCConfigurationList;
