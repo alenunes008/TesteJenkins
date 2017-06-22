@@ -146,7 +146,8 @@
 				TargetAttributes = {
 					D65BF8881EFB50A200F6C962 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = Q455L4V7AE;
+						ProvisioningStyle = Manual;
 					};
 					D65BF89C1EFB50A300F6C962 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -339,10 +340,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q455L4V7AE;
 				INFOPLIST_FILE = ProjetoJenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.alex.ProjetoJenkins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.ProjetoJenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a8408ca1-ff39-4c8a-97db-25fcc88dc778";
+				PROVISIONING_PROFILE_SPECIFIER = "Dev: Geral";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -351,10 +355,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = Q455L4V7AE;
 				INFOPLIST_FILE = ProjetoJenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.alex.ProjetoJenkins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.ProjetoJenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2abb4f9f-79ff-4259-bfd9-9375423c58b9";
+				PROVISIONING_PROFILE_SPECIFIER = "Distrib: Geral";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
