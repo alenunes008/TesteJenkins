@@ -15,6 +15,7 @@
 		D65BF8941EFB50A200F6C962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65BF8931EFB50A200F6C962 /* Assets.xcassets */; };
 		D65BF8971EFB50A200F6C962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65BF8951EFB50A200F6C962 /* LaunchScreen.storyboard */; };
 		D65BF8A21EFB50A300F6C962 /* ProjetoJenkinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF8A11EFB50A300F6C962 /* ProjetoJenkinsTests.swift */; };
+		D65D82D01EFB653700E3CD24 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = D65D82CF1EFB653700E3CD24 /* Gemfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		D65BF89D1EFB50A300F6C962 /* ProjetoJenkinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetoJenkinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65BF8A11EFB50A300F6C962 /* ProjetoJenkinsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoJenkinsTests.swift; sourceTree = "<group>"; };
 		D65BF8A31EFB50A300F6C962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65D82CF1EFB653700E3CD24 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = SOURCE_ROOT; };
 		D7DB156E688FD82918511E1E /* Pods_ProjetoJenkins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoJenkins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADEC75C3809B780F469F4A0 /* Pods-ProjetoJenkinsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoJenkinsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjetoJenkinsTests/Pods-ProjetoJenkinsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +102,7 @@
 		D65BF88B1EFB50A200F6C962 /* ProjetoJenkins */ = {
 			isa = PBXGroup;
 			children = (
+				D65D82CF1EFB653700E3CD24 /* Gemfile */,
 				D65BF88C1EFB50A200F6C962 /* AppDelegate.swift */,
 				D65BF88E1EFB50A200F6C962 /* ViewController.swift */,
 				D65BF8901EFB50A200F6C962 /* Main.storyboard */,
@@ -218,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65D82D01EFB653700E3CD24 /* Gemfile in Resources */,
 				D65BF8971EFB50A200F6C962 /* LaunchScreen.storyboard in Resources */,
 				D65BF8941EFB50A200F6C962 /* Assets.xcassets in Resources */,
 				D65BF8921EFB50A200F6C962 /* Main.storyboard in Resources */,
@@ -549,6 +553,7 @@
 				D65BF8A81EFB50A300F6C962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D65BF8A91EFB50A300F6C962 /* Build configuration list for PBXNativeTarget "ProjetoJenkinsTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +562,7 @@
 				D65BF8AB1EFB50A300F6C962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
